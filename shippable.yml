@@ -3,7 +3,7 @@ language: python
 build:
 
   pre_ci_boot:
-    image_name: drydock/u14
+    image_name: drydock/c7
     image_tag: master
     pull: true
     
