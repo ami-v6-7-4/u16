@@ -28,11 +28,11 @@ build:
     - helm version --client
     - doctl version
     - ansible --version #2.6.1
-    - pip show boto
-    - pip show boto3
-    - pip show apache-libcloud
-    - pip show azure
-    - pip show dopy 
+   # - pip show boto
+   # - pip show boto3
+   # - pip show apache-libcloud
+   # - pip show azure
+   # - pip show dopy 
     - packer --version #1.2.4
     - jq --version
     - terraform --version #0.11.7
